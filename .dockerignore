@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+**/node_modules
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.venv
+**/venv
+
+# Build outputs
+frontend/build
+**/.coverage
+**/htmlcov
+
+# IDE & OS
+.idea
+.vscode
+*.swp
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.local
+*.pem
+
+# Docs & misc
+README.md
+*.md
+!backend/**
